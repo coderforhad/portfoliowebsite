@@ -1,0 +1,89 @@
+ body{
+    font-family: "Lato", sans-serif;
+ }
+
+ h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+ .row.content {height: 1500px}
+    
+ /* Set gray background color and 100% height */
+ .sidenav {
+   background-color: #162232;
+   height: 100%;
+    /* width: 300px; */
+ }
+ 
+ /* Set black background color, white text and some padding */
+ footer {
+   background-color: #224470;
+   color: white;
+   padding: 15px;
+ }
+ 
+ /* On small screens, set height to 'auto' for sidenav and grid */
+ @media screen and (max-width: 767px) {
+   .sidenav {
+     height: auto;
+     padding: 15px;
+   }
+   .row.content {height: auto; text-align: center; } 
+   .contact, ul, li{list-style: none;}
+ }
+
+ .circular_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+    
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .circular_image img{
+    width:100%;
+  }
+ .contact{
+    color: aliceblue;
+    margin-top: 10px;
+ }
+
+ .line-1 {
+    height: 1px;
+    background: rgb(255, 255, 255);
+  }
+  .line-2{
+    height: 1px;
+    background: rgb(0, 0, 0);
+  }
+  .info{
+    margin-left: 10px;
+  }
+  .listitem{
+    margin: 15px;
+    padding: 0;
+  }
+
+.Experience{
+    display: inline-block;
+    /* width: 300px; */
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #162232; 
+  }
